@@ -90,3 +90,22 @@
 - [x] ～くれます (Give to me) (L24)
 - [x] ～たら (Conditional) (L25)
 - [x] ～ても (Even if) (L25)
+
+### 第六部分：重要补充文法 (Essential Supplements)
+> 根据 N5 实战与进阶需求补充
+
+**A. 原因与转折 (中级逻辑连接)**
+- [x] ～から (Reason) (L9/L28): 主观原因，与「～て」（原因）的区分。
+- [x] ～が (Contrast) (L8): 逆接连接词（但是...）。
+
+**B. 授受动词进阶 (Advanced Giving/Receiving)**
+- [x] ～てあげます (Do favor for someone) (L24)
+- [x] ～てもらいます (Receive favor) (L24)
+- [x] ～てくれます (Do favor for me) (L24)
+
+**C. 疑问词全面掌握 (Wh-Questions Mastery)**
+- [x] 疑問詞 + も + 否定 (Complete negation): 何も、誰も、どこも等。
+- [x] 基础疑问词对比: いつ / どこ / だれ / どの / どちら。
+
+**D. 特殊名词修饰 (Special Modification)**
+- [x] ～という + 名詞 (Named...): 例如「サクラ」という名前。
