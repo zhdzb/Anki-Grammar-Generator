@@ -1,0 +1,30 @@
+# src/templates/back.html
+
+<div class="card-content">
+    <!-- 顶部重复正面内容，但可以淡化 -->
+    <div class="front-review">
+        <div class="grammar-display">{{Grammar}}</div>
+        <div class="meaning">{{Meaning}}</div>
+    </div>
+    
+    <hr>
+    
+    <!-- 答案区域 -->
+    <div class="answer-box">
+        <div class="label">简单句翻译</div>
+        <div class="example-cn">{{Simple_Example_CN}}</div>
+        
+        <div class="label" style="margin-top: 15px;">🔥 难句翻译</div>
+        <div class="example-cn">{{Hard_Example_CN}}</div>
+    </div>
+    
+    <!-- 辨析区域 (如果有易混淆点才显示) -->
+    {{#Difference}}
+    <div class="confusion-box">
+        <div class="confusion-title">⚠️ 易混淆辨析：{{Similar_Grammar}}</div>
+        <div class="confusion-content">{{Difference}}</div>
+    </div>
+    {{/Difference}}
+    
+    <div class="connection-info">接续：{{Connection}}</div>
+</div>

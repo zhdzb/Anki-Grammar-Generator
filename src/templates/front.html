@@ -1,0 +1,27 @@
+# src/templates/front.html
+
+<div class="card-content">
+    <!-- 挑战1: 含义 -->
+    <div class="section-title">含义</div>
+    <div class="meaning">{{Meaning}}</div>
+    
+    <hr class="separator">
+
+    <!-- 挑战2: 文法/简单句 -->
+    <div class="section-title">文法 / 简单句</div>
+    <div class="grammar-display">{{Grammar}}</div>
+    <div class="example-jp simple">{{Simple_Example_JP}}</div>
+    
+    <hr class="separator">
+
+    <!-- 挑战3: 难句挑战 -->
+    <div class="section-title">🔥 难句挑战</div>
+    <div class="example-jp hard">{{Hard_Example_JP}}</div>
+
+    <div class="instruction">
+        🤔 思考：
+        1. 这个文法怎么用？
+        2. 难句是什么意思？
+        3. 它和 {{Similar_Grammar}} 有什么区别？
+    </div>
+</div>
